@@ -1,0 +1,49 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Outfit';
+    font-size: 15px;
+    background-color: rgb(214, 226, 240);
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+img {
+    max-width: 250px;
+    border-radius: 15px;
+}
+
+#wrapper {
+    background-color: whitesmoke;
+    width: 250px;
+    padding: 10px;
+
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 10px lightgray;
+
+}
+
+.text + p {
+    color: gray;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    align-items: baseline;
+    margin-top: 5px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
